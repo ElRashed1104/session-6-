@@ -1,0 +1,14 @@
+import numpy as np 
+n1= np.array([10 , 20 , 30 , 40 ,  50])
+n2 = np.array([5 , 4 , 3 , 2 ,1])
+
+
+res = n1 + n2
+res2 = n1 - n2
+res3 = n1 * n2
+res3 = n1 / n2
+n1.min 
+n1.max
+n1.mean
+dot_t = np.dot(n1, n2)
+A_reshaped = n1.reshape(5, 1)
